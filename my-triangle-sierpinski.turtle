@@ -1,0 +1,43 @@
+set NQITERATIONS 40000
+set BIGQVAL 2 ^ 53
+set STEP 960
+set XQA -STEP / 2
+set YQA 360
+set XQB -XQA
+set YQB YQA
+set XQC 0
+set YQC YQA - STEP * sin(60)
+color yellow
+up
+position XQA, YQA
+down
+position XQB, YQB
+position XQC, YQC
+position XQA, YQA
+proc RANDQCORNER {
+	set TMP BIGQVAL - random(0, 2) - BIGQVAL + 1
+	set RANDQCORNERQX XQB * TMP
+	set RANDQCORNERQY TMP * TMP * XQB * SQRT3 + YQC
+}
+set XQ1 random(XQA, 0)
+set YQ1 random(YQA - (XQ1 - XQA) * SQRT3, YQA)
+set XQ2 random(0, XQB)
+set YQ2 random(YQB - (XQB - XQ2) * SQRT3, YQB)
+repeat NQITERATIONS {
+	call RANDQCORNER
+	set XQ1 (XQ1 + RANDQCORNERQX) / 2
+	set YQ1 (YQ1 + RANDQCORNERQY) / 2
+	color blue
+	up
+	position XQ1, YQ1
+	down
+	position 1 + XQ1, 1 + YQ1
+	call RANDQCORNER
+	set XQ2 (XQ2 + RANDQCORNERQX) / 2
+	set YQ2 (YQ2 + RANDQCORNERQY) / 2
+	color red
+	up
+	position XQ2, YQ2
+	down
+	position 1 + XQ2, 1 + YQ2
+}

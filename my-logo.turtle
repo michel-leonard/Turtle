@@ -1,0 +1,6466 @@
+set S 1
+set RZ1 .1
+set GZ1 .1
+set BZ1 .1
+set RZ2 .9
+set GZ2 0
+set BZ2 0
+
+set AMPLITUDE 360
+set NZITERATIONS 120000
+
+right 90
+color	RZ1, GZ1, BZ1
+{
+up		pos -361 * S, -486 * S
+down	fw 7 * S
+up		pos -361 * S, -485 * S
+down	fw 8 * S
+set		Y -484 * S
+up		pos -361 * S, Y
+down	fw 8 * S
+up		pos 84 * S, Y
+down	fw 13 * S
+set		Y -483 * S
+up		pos -361 * S, Y
+down	fw 9 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -253 * S, Y
+down	fw 22 * S
+up		pos -219 * S, Y
+down	fw 27 * S
+up		pos -149 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 50 * S
+up		pos 79 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -482 * S
+up		pos -361 * S, Y
+down	fw 10 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -219 * S, Y
+down	fw 27 * S
+up		pos -149 * S, Y
+down	fw 26 * S
+up		pos -111 * S, Y
+down	fw 56 * S
+up		pos -34 * S, Y
+down	fw 54 * S
+up		pos 76 * S, Y
+down	fw 31 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -481 * S
+up		pos -361 * S, Y
+down	fw 11 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -218 * S, Y
+down	fw 26 * S
+up		pos -150 * S, Y
+down	fw 27 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 57 * S
+up		pos 74 * S, Y
+down	fw 37 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -480 * S
+up		pos -361 * S, Y
+down	fw 12 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -218 * S, Y
+down	fw 27 * S
+up		pos -150 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 59 * S
+up		pos 72 * S, Y
+down	fw 42 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 11 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -479 * S
+up		pos -361 * S, Y
+down	fw 13 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -217 * S, Y
+down	fw 26 * S
+up		pos -150 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 61 * S
+up		pos 71 * S, Y
+down	fw 44 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -478 * S
+up		pos -361 * S, Y
+down	fw 14 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -217 * S, Y
+down	fw 27 * S
+up		pos -151 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 62 * S
+up		pos 69 * S, Y
+down	fw 46 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -477 * S
+up		pos -361 * S, Y
+down	fw 14 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -216 * S, Y
+down	fw 26 * S
+up		pos -151 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 64 * S
+up		pos 68 * S, Y
+down	fw 47 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -476 * S
+up		pos -361 * S, Y
+down	fw 15 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -216 * S, Y
+down	fw 26 * S
+up		pos -152 * S, Y
+down	fw 27 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 65 * S
+up		pos 67 * S, Y
+down	fw 48 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -475 * S
+up		pos -361 * S, Y
+down	fw 16 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -215 * S, Y
+down	fw 26 * S
+up		pos -152 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 66 * S
+up		pos 66 * S, Y
+down	fw 48 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -474 * S
+up		pos -361 * S, Y
+down	fw 17 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -215 * S, Y
+down	fw 26 * S
+up		pos -152 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 67 * S
+up		pos 65 * S, Y
+down	fw 49 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -473 * S
+up		pos -361 * S, Y
+down	fw 18 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -215 * S, Y
+down	fw 27 * S
+up		pos -153 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 68 * S
+up		pos 64 * S, Y
+down	fw 50 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -472 * S
+up		pos -361 * S, Y
+down	fw 19 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -214 * S, Y
+down	fw 26 * S
+up		pos -153 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 69 * S
+up		pos 63 * S, Y
+down	fw 51 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -471 * S
+up		pos -361 * S, Y
+down	fw 19 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -214 * S, Y
+down	fw 26 * S
+up		pos -154 * S, Y
+down	fw 27 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 70 * S
+up		pos 62 * S, Y
+down	fw 52 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -470 * S
+up		pos -361 * S, Y
+down	fw 20 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -213 * S, Y
+down	fw 26 * S
+up		pos -154 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 70 * S
+up		pos 62 * S, Y
+down	fw 52 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -469 * S
+up		pos -361 * S, Y
+down	fw 21 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -213 * S, Y
+down	fw 26 * S
+up		pos -154 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 71 * S
+up		pos 61 * S, Y
+down	fw 53 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -468 * S
+up		pos -361 * S, Y
+down	fw 22 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -213 * S, Y
+down	fw 27 * S
+up		pos -155 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 72 * S
+up		pos 60 * S, Y
+down	fw 53 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -467 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -212 * S, Y
+down	fw 26 * S
+up		pos -155 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 72 * S
+up		pos 60 * S, Y
+down	fw 53 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 450 * S, Y
+down	fw 11 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -466 * S
+up		pos -361 * S, Y
+down	fw 24 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -212 * S, Y
+down	fw 26 * S
+up		pos -155 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 73 * S
+up		pos 59 * S, Y
+down	fw 54 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -465 * S
+up		pos -361 * S, Y
+down	fw 25 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -211 * S, Y
+down	fw 26 * S
+up		pos -156 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 73 * S
+up		pos 59 * S, Y
+down	fw 54 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -464 * S
+up		pos -361 * S, Y
+down	fw 26 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -211 * S, Y
+down	fw 26 * S
+up		pos -156 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 74 * S
+up		pos 58 * S, Y
+down	fw 55 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -463 * S
+up		pos -361 * S, Y
+down	fw 26 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -211 * S, Y
+down	fw 27 * S
+up		pos -157 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 74 * S
+up		pos 58 * S, Y
+down	fw 55 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -462 * S
+up		pos -361 * S, Y
+down	fw 27 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -210 * S, Y
+down	fw 26 * S
+up		pos -157 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 74 * S
+up		pos 58 * S, Y
+down	fw 30 * S
+up		pos 95 * S, Y
+down	fw 18 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -461 * S
+up		pos -361 * S, Y
+down	fw 28 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -210 * S, Y
+down	fw 26 * S
+up		pos -158 * S, Y
+down	fw 27 * S
+up		pos -110 * S, Y
+down	fw 55 * S
+up		pos -34 * S, Y
+down	fw 75 * S
+up		pos 57 * S, Y
+down	fw 28 * S
+up		pos 101 * S, Y
+down	fw 11 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 177 * S, Y
+down	fw 77 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -460 * S
+up		pos -361 * S, Y
+down	fw 29 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -209 * S, Y
+down	fw 26 * S
+up		pos -158 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 11 * S, Y
+down	fw 30 * S
+up		pos 57 * S, Y
+down	fw 26 * S
+up		pos 105 * S, Y
+down	fw 7 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -459 * S
+up		pos -361 * S, Y
+down	fw 30 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -209 * S, Y
+down	fw 26 * S
+up		pos -158 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 13 * S, Y
+down	fw 28 * S
+up		pos 57 * S, Y
+down	fw 25 * S
+up		pos 108 * S, Y
+down	fw 4 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -458 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 31 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -209 * S, Y
+down	fw 27 * S
+up		pos -159 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 15 * S, Y
+down	fw 26 * S
+up		pos 57 * S, Y
+down	fw 24 * S
+up		pos 110 * S, Y
+down	fw 2 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -457 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 32 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -208 * S, Y
+down	fw 26 * S
+up		pos -159 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 16 * S, Y
+down	fw 26 * S
+up		pos 56 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -456 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 32 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -208 * S, Y
+down	fw 26 * S
+up		pos -159 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 16 * S, Y
+down	fw 26 * S
+up		pos 56 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -455 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 33 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -207 * S, Y
+down	fw 26 * S
+up		pos -160 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 17 * S, Y
+down	fw 25 * S
+up		pos 56 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -454 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 34 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -207 * S, Y
+down	fw 26 * S
+up		pos -160 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 17 * S, Y
+down	fw 25 * S
+up		pos 56 * S, Y
+down	fw 23 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+set		Y -453 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 35 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -207 * S, Y
+down	fw 27 * S
+up		pos -161 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 18 * S, Y
+down	fw 24 * S
+up		pos 56 * S, Y
+down	fw 23 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+set		Y -452 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 36 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -206 * S, Y
+down	fw 26 * S
+up		pos -161 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 18 * S, Y
+down	fw 24 * S
+up		pos 56 * S, Y
+down	fw 23 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 452 * S, Y
+down	fw 8 * S
+set		Y -451 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 37 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -206 * S, Y
+down	fw 26 * S
+up		pos -161 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 18 * S, Y
+down	fw 24 * S
+up		pos 56 * S, Y
+down	fw 23 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 447 * S, Y
+down	fw 17 * S
+set		Y -450 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 38 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -205 * S, Y
+down	fw 26 * S
+up		pos -162 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 18 * S, Y
+down	fw 24 * S
+up		pos 56 * S, Y
+down	fw 23 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 444 * S, Y
+down	fw 23 * S
+set		Y -449 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 39 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -205 * S, Y
+down	fw 26 * S
+up		pos -162 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 18 * S, Y
+down	fw 24 * S
+up		pos 56 * S, Y
+down	fw 23 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 293 * S, Y
+down	fw 12 * S
+up		pos 442 * S, Y
+down	fw 27 * S
+set		Y -448 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 39 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -204 * S, Y
+down	fw 26 * S
+up		pos -163 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 18 * S, Y
+down	fw 24 * S
+up		pos 56 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 289 * S, Y
+down	fw 21 * S
+up		pos 441 * S, Y
+down	fw 30 * S
+set		Y -447 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 40 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -204 * S, Y
+down	fw 26 * S
+up		pos -163 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 18 * S, Y
+down	fw 24 * S
+up		pos 56 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 286 * S, Y
+down	fw 27 * S
+up		pos 439 * S, Y
+down	fw 33 * S
+set		Y -446 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 41 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -204 * S, Y
+down	fw 26 * S
+up		pos -163 * S, Y
+}
+{
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 18 * S, Y
+down	fw 24 * S
+up		pos 56 * S, Y
+down	fw 25 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 283 * S, Y
+down	fw 32 * S
+up		pos 438 * S, Y
+down	fw 36 * S
+set		Y -445 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 42 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -203 * S, Y
+down	fw 26 * S
+up		pos -164 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 18 * S, Y
+down	fw 24 * S
+up		pos 56 * S, Y
+down	fw 26 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 282 * S, Y
+down	fw 35 * S
+up		pos 437 * S, Y
+down	fw 38 * S
+set		Y -444 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 43 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -203 * S, Y
+down	fw 26 * S
+up		pos -164 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 17 * S, Y
+down	fw 25 * S
+up		pos 57 * S, Y
+down	fw 26 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 280 * S, Y
+down	fw 38 * S
+up		pos 436 * S, Y
+down	fw 40 * S
+set		Y -443 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 44 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -202 * S, Y
+down	fw 25 * S
+up		pos -164 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 17 * S, Y
+down	fw 25 * S
+up		pos 57 * S, Y
+down	fw 27 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 279 * S, Y
+down	fw 41 * S
+up		pos 435 * S, Y
+down	fw 42 * S
+set		Y -442 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 44 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -202 * S, Y
+down	fw 26 * S
+up		pos -165 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 16 * S, Y
+down	fw 25 * S
+up		pos 57 * S, Y
+down	fw 29 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 277 * S, Y
+down	fw 44 * S
+up		pos 434 * S, Y
+down	fw 44 * S
+set		Y -441 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 45 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -202 * S, Y
+down	fw 26 * S
+up		pos -165 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 16 * S, Y
+down	fw 25 * S
+up		pos 57 * S, Y
+down	fw 32 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 276 * S, Y
+down	fw 46 * S
+up		pos 433 * S, Y
+down	fw 45 * S
+set		Y -440 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 46 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -201 * S, Y
+down	fw 25 * S
+up		pos -166 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 50 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 15 * S, Y
+down	fw 26 * S
+up		pos 58 * S, Y
+down	fw 33 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 275 * S, Y
+down	fw 48 * S
+up		pos 433 * S, Y
+down	fw 46 * S
+set		Y -439 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 47 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -201 * S, Y
+down	fw 26 * S
+up		pos -166 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 13 * S, Y
+down	fw 28 * S
+up		pos 58 * S, Y
+down	fw 36 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 274 * S, Y
+down	fw 50 * S
+up		pos 432 * S, Y
+down	fw 18 * S
+up		pos 462 * S, Y
+down	fw 18 * S
+set		Y -438 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 48 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -200 * S, Y
+down	fw 25 * S
+up		pos -166 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 11 * S, Y
+down	fw 29 * S
+up		pos 59 * S, Y
+down	fw 37 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 273 * S, Y
+down	fw 52 * S
+up		pos 431 * S, Y
+down	fw 17 * S
+up		pos 464 * S, Y
+down	fw 16 * S
+set		Y -437 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 49 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -200 * S, Y
+down	fw 26 * S
+up		pos -167 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 74 * S
+up		pos 59 * S, Y
+down	fw 40 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 272 * S, Y
+down	fw 54 * S
+up		pos 431 * S, Y
+down	fw 15 * S
+up		pos 465 * S, Y
+down	fw 16 * S
+set		Y -436 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 50 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -200 * S, Y
+down	fw 26 * S
+up		pos -167 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 74 * S
+up		pos 60 * S, Y
+down	fw 41 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 271 * S, Y
+down	fw 56 * S
+up		pos 431 * S, Y
+down	fw 14 * S
+up		pos 467 * S, Y
+down	fw 14 * S
+set		Y -435 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 50 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -199 * S, Y
+down	fw 25 * S
+up		pos -167 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 73 * S
+up		pos 61 * S, Y
+down	fw 41 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 271 * S, Y
+down	fw 56 * S
+up		pos 430 * S, Y
+down	fw 14 * S
+up		pos 468 * S, Y
+down	fw 13 * S
+set		Y -434 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 51 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -199 * S, Y
+down	fw 26 * S
+up		pos -168 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 73 * S
+up		pos 61 * S, Y
+down	fw 43 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 270 * S, Y
+down	fw 58 * S
+up		pos 430 * S, Y
+down	fw 13 * S
+up		pos 469 * S, Y
+down	fw 13 * S
+set		Y -433 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 52 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -198 * S, Y
+down	fw 25 * S
+up		pos -168 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 72 * S
+up		pos 62 * S, Y
+down	fw 44 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 269 * S, Y
+down	fw 60 * S
+up		pos 430 * S, Y
+down	fw 12 * S
+up		pos 469 * S, Y
+down	fw 13 * S
+set		Y -432 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 53 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -198 * S, Y
+down	fw 25 * S
+up		pos -168 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 72 * S
+up		pos 63 * S, Y
+down	fw 44 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 269 * S, Y
+down	fw 28 * S
+up		pos 301 * S, Y
+down	fw 28 * S
+up		pos 429 * S, Y
+down	fw 13 * S
+up		pos 470 * S, Y
+down	fw 12 * S
+set		Y -431 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -337 * S, Y
+down	fw 30 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -198 * S, Y
+down	fw 26 * S
+up		pos -169 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 71 * S
+up		pos 64 * S, Y
+down	fw 45 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 268 * S, Y
+down	fw 25 * S
+up		pos 305 * S, Y
+down	fw 25 * S
+up		pos 429 * S, Y
+down	fw 12 * S
+up		pos 470 * S, Y
+down	fw 13 * S
+set		Y -430 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -336 * S, Y
+down	fw 30 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -197 * S, Y
+down	fw 25 * S
+up		pos -169 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 70 * S
+up		pos 65 * S, Y
+down	fw 45 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 267 * S, Y
+down	fw 24 * S
+up		pos 306 * S, Y
+down	fw 24 * S
+up		pos 429 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -429 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -335 * S, Y
+down	fw 30 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -197 * S, Y
+down	fw 25 * S
+up		pos -170 * S, Y
+down	fw 26 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 70 * S
+up		pos 66 * S, Y
+down	fw 45 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 267 * S, Y
+down	fw 23 * S
+up		pos 308 * S, Y
+down	fw 23 * S
+up		pos 429 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -428 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -334 * S, Y
+down	fw 30 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -196 * S, Y
+down	fw 25 * S
+up		pos -170 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 69 * S
+up		pos 67 * S, Y
+down	fw 46 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 266 * S, Y
+down	fw 23 * S
+up		pos 309 * S, Y
+down	fw 22 * S
+up		pos 429 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -427 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -333 * S, Y
+down	fw 29 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -196 * S, Y
+down	fw 25 * S
+up		pos -170 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 68 * S
+up		pos 68 * S, Y
+down	fw 46 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 266 * S, Y
+down	fw 22 * S
+up		pos 310 * S, Y
+down	fw 21 * S
+up		pos 429 * S, Y
+down	fw 12 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -426 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -333 * S, Y
+down	fw 30 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -196 * S, Y
+down	fw 25 * S
+up		pos -170 * S, Y
+down	fw 24 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 67 * S
+up		pos 70 * S, Y
+down	fw 45 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 266 * S, Y
+down	fw 21 * S
+up		pos 310 * S, Y
+down	fw 22 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -425 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -332 * S, Y
+down	fw 30 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -195 * S, Y
+down	fw 49 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 66 * S
+up		pos 71 * S, Y
+down	fw 45 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 265 * S, Y
+down	fw 22 * S
+up		pos 311 * S, Y
+down	fw 21 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -424 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -331 * S, Y
+down	fw 30 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -195 * S, Y
+down	fw 48 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 65 * S
+up		pos 73 * S, Y
+down	fw 43 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 265 * S, Y
+down	fw 21 * S
+up		pos 312 * S, Y
+down	fw 20 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -423 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -330 * S, Y
+down	fw 53 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -194 * S, Y
+down	fw 47 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 63 * S
+up		pos 75 * S, Y
+down	fw 42 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 265 * S, Y
+down	fw 21 * S
+up		pos 312 * S, Y
+down	fw 21 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -422 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -329 * S, Y
+down	fw 52 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -194 * S, Y
+down	fw 47 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 62 * S
+up		pos 77 * S, Y
+down	fw 41 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 21 * S
+up		pos 312 * S, Y
+down	fw 21 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -421 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -328 * S, Y
+down	fw 51 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -194 * S, Y
+down	fw 46 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 60 * S
+up		pos 79 * S, Y
+down	fw 40 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 21 * S
+up		pos 313 * S, Y
+down	fw 20 * S
+up		pos 429 * S, Y
+down	fw 11 * S
+up		pos 471 * S, Y
+down	fw 12 * S
+set		Y -420 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -327 * S, Y
+down	fw 50 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -193 * S, Y
+down	fw 45 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 58 * S
+up		pos 81 * S, Y
+down	fw 38 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 21 * S
+up		pos 313 * S, Y
+down	fw 20 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -419 * S
+up		pos -481 * S, Y
+down	fw 28 * S
+up		pos -410 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -326 * S, Y
+down	fw 49 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -193 * S, Y
+down	fw 44 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 56 * S
+up		pos 83 * S, Y
+down	fw 37 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 20 * S
+up		pos 313 * S, Y
+down	fw 21 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -418 * S
+up		pos -481 * S, Y
+down	fw 29 * S
+up		pos -411 * S, Y
+down	fw 29 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -325 * S, Y
+down	fw 48 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -192 * S, Y
+down	fw 43 * S
+up		pos -110 * S, Y
+down	fw 51 * S
+up		pos -34 * S, Y
+down	fw 55 * S
+up		pos 85 * S, Y
+down	fw 35 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 20 * S
+up		pos 313 * S, Y
+down	fw 21 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -417 * S
+up		pos -481 * S, Y
+down	fw 29 * S
+up		pos -411 * S, Y
+down	fw 29 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -324 * S, Y
+down	fw 47 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -192 * S, Y
+down	fw 43 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 56 * S
+up		pos 88 * S, Y
+down	fw 33 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 263 * S, Y
+down	fw 71 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -416 * S
+up		pos -481 * S, Y
+down	fw 29 * S
+up		pos -411 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -323 * S, Y
+down	fw 46 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -192 * S, Y
+down	fw 42 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 57 * S
+up		pos 91 * S, Y
+down	fw 30 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 263 * S, Y
+down	fw 71 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -415 * S
+up		pos -481 * S, Y
+down	fw 29 * S
+up		pos -411 * S, Y
+down	fw 28 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -323 * S, Y
+down	fw 46 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -191 * S, Y
+down	fw 41 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos -1 * S, Y
+down	fw 24 * S
+up		pos 93 * S, Y
+down	fw 28 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 263 * S, Y
+down	fw 71 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -414 * S
+up		pos -481 * S, Y
+down	fw 30 * S
+up		pos -412 * S, Y
+}
+{
+down	fw 29 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -322 * S, Y
+down	fw 45 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -191 * S, Y
+down	fw 40 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos -1 * S, Y
+down	fw 25 * S
+up		pos 95 * S, Y
+down	fw 27 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 263 * S, Y
+down	fw 71 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -413 * S
+up		pos -480 * S, Y
+down	fw 29 * S
+up		pos -412 * S, Y
+down	fw 29 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -321 * S, Y
+down	fw 44 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -190 * S, Y
+down	fw 39 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 0 * S, Y
+down	fw 24 * S
+up		pos 96 * S, Y
+down	fw 26 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 263 * S, Y
+down	fw 71 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -412 * S
+up		pos -480 * S, Y
+down	fw 30 * S
+up		pos -413 * S, Y
+down	fw 30 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -320 * S, Y
+down	fw 43 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -190 * S, Y
+down	fw 39 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 0 * S, Y
+down	fw 25 * S
+up		pos 97 * S, Y
+down	fw 25 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 263 * S, Y
+down	fw 71 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -411 * S
+up		pos -480 * S, Y
+down	fw 30 * S
+up		pos -413 * S, Y
+down	fw 30 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -319 * S, Y
+down	fw 42 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -189 * S, Y
+down	fw 37 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos S, Y
+down	fw 24 * S
+up		pos 98 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 263 * S, Y
+down	fw 71 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -410 * S
+up		pos -480 * S, Y
+down	fw 31 * S
+up		pos -414 * S, Y
+down	fw 30 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -318 * S, Y
+down	fw 41 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -189 * S, Y
+down	fw 37 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos S, Y
+down	fw 25 * S
+up		pos 98 * S, Y
+down	fw 25 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 263 * S, Y
+down	fw 71 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -409 * S
+up		pos -479 * S, Y
+down	fw 31 * S
+up		pos -415 * S, Y
+down	fw 31 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -317 * S, Y
+down	fw 40 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -189 * S, Y
+down	fw 36 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 2 * S, Y
+down	fw 25 * S
+up		pos 99 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 263 * S, Y
+down	fw 71 * S
+up		pos 429 * S, Y
+down	fw 54 * S
+set		Y -408 * S
+up		pos -479 * S, Y
+down	fw 32 * S
+up		pos -416 * S, Y
+down	fw 32 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -316 * S, Y
+down	fw 39 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -188 * S, Y
+down	fw 35 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 2 * S, Y
+down	fw 25 * S
+up		pos 99 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 263 * S, Y
+down	fw 71 * S
+set		Y -407 * S
+up		pos -479 * S, Y
+down	fw 33 * S
+up		pos -417 * S, Y
+down	fw 33 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -315 * S, Y
+down	fw 38 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -188 * S, Y
+down	fw 35 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 3 * S, Y
+down	fw 25 * S
+up		pos 99 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 263 * S, Y
+down	fw 71 * S
+set		Y -406 * S
+up		pos -479 * S, Y
+down	fw 34 * S
+up		pos -418 * S, Y
+down	fw 33 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -315 * S, Y
+down	fw 38 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -188 * S, Y
+down	fw 34 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 3 * S, Y
+down	fw 25 * S
+up		pos 99 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 263 * S, Y
+down	fw 71 * S
+set		Y -405 * S
+up		pos -478 * S, Y
+down	fw 35 * S
+up		pos -420 * S, Y
+down	fw 35 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -314 * S, Y
+down	fw 37 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -187 * S, Y
+down	fw 33 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 4 * S, Y
+down	fw 25 * S
+up		pos 99 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 70 * S
+set		Y -404 * S
+up		pos -478 * S, Y
+down	fw 37 * S
+up		pos -421 * S, Y
+down	fw 36 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -313 * S, Y
+down	fw 36 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -187 * S, Y
+down	fw 32 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 5 * S, Y
+down	fw 24 * S
+up		pos 57 * S, Y
+down	fw 2 * S
+up		pos 99 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 21 * S
+set		Y -403 * S
+up		pos -477 * S, Y
+down	fw 38 * S
+up		pos -424 * S, Y
+down	fw 38 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -312 * S, Y
+down	fw 35 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -186 * S, Y
+down	fw 31 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 5 * S, Y
+down	fw 25 * S
+up		pos 57 * S, Y
+down	fw 3 * S
+up		pos 99 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 21 * S
+set		Y -402 * S
+up		pos -477 * S, Y
+down	fw 45 * S
+up		pos -430 * S, Y
+down	fw 44 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -311 * S, Y
+down	fw 34 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -186 * S, Y
+down	fw 31 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 6 * S, Y
+down	fw 25 * S
+up		pos 57 * S, Y
+down	fw 5 * S
+up		pos 99 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 21 * S
+set		Y -401 * S
+up		pos -477 * S, Y
+down	fw 90 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -310 * S, Y
+down	fw 33 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -185 * S, Y
+down	fw 29 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 6 * S, Y
+down	fw 25 * S
+up		pos 57 * S, Y
+down	fw 7 * S
+up		pos 98 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 21 * S
+set		Y -400 * S
+up		pos -476 * S, Y
+down	fw 89 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -309 * S, Y
+down	fw 32 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -185 * S, Y
+down	fw 29 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 7 * S, Y
+down	fw 25 * S
+up		pos 57 * S, Y
+down	fw 9 * S
+up		pos 97 * S, Y
+down	fw 25 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 265 * S, Y
+down	fw 21 * S
+set		Y -399 * S
+up		pos -476 * S, Y
+down	fw 88 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -308 * S, Y
+down	fw 31 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -185 * S, Y
+down	fw 28 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 7 * S, Y
+down	fw 25 * S
+up		pos 56 * S, Y
+down	fw 12 * S
+up		pos 96 * S, Y
+down	fw 26 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 265 * S, Y
+down	fw 21 * S
+set		Y -398 * S
+up		pos -475 * S, Y
+down	fw 87 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -307 * S, Y
+down	fw 30 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -184 * S, Y
+down	fw 27 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 8 * S, Y
+down	fw 25 * S
+up		pos 56 * S, Y
+down	fw 15 * S
+up		pos 95 * S, Y
+down	fw 27 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 265 * S, Y
+down	fw 22 * S
+up		pos 317 * S, Y
+down	fw 3 * S
+set		Y -397 * S
+up		pos -475 * S, Y
+down	fw 86 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -306 * S, Y
+down	fw 29 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -184 * S, Y
+down	fw 27 * S
+up		pos -110 * S, Y
+down	fw 22 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 8 * S, Y
+down	fw 25 * S
+up		pos 56 * S, Y
+down	fw 19 * S
+up		pos 93 * S, Y
+down	fw 29 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 266 * S, Y
+down	fw 22 * S
+up		pos 316 * S, Y
+down	fw 5 * S
+set		Y -396 * S
+up		pos -474 * S, Y
+down	fw 85 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -306 * S, Y
+down	fw 29 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -183 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 9 * S, Y
+down	fw 25 * S
+up		pos 56 * S, Y
+down	fw 27 * S
+up		pos 88 * S, Y
+down	fw 33 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 266 * S, Y
+down	fw 23 * S
+up		pos 315 * S, Y
+down	fw 7 * S
+set		Y -395 * S
+up		pos -473 * S, Y
+down	fw 83 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -305 * S, Y
+down	fw 28 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -183 * S, Y
+down	fw 25 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 9 * S, Y
+down	fw 25 * S
+up		pos 56 * S, Y
+down	fw 65 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 267 * S, Y
+down	fw 23 * S
+up		pos 314 * S, Y
+down	fw 9 * S
+set		Y -394 * S
+up		pos -473 * S, Y
+down	fw 82 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -304 * S, Y
+down	fw 27 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -183 * S, Y
+down	fw 24 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 10 * S, Y
+down	fw 25 * S
+up		pos 56 * S, Y
+down	fw 65 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 267 * S, Y
+down	fw 24 * S
+up		pos 312 * S, Y
+down	fw 12 * S
+set		Y -393 * S
+up		pos -472 * S, Y
+down	fw 81 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -303 * S, Y
+down	fw 26 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -182 * S, Y
+down	fw 23 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 10 * S, Y
+down	fw 26 * S
+up		pos 56 * S, Y
+down	fw 64 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 268 * S, Y
+down	fw 25 * S
+up		pos 310 * S, Y
+down	fw 15 * S
+set		Y -392 * S
+up		pos -471 * S, Y
+down	fw 79 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -302 * S, Y
+down	fw 25 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -182 * S, Y
+down	fw 23 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 11 * S, Y
+down	fw 25 * S
+up		pos 56 * S, Y
+down	fw 64 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 268 * S, Y
+down	fw 28 * S
+up		pos 307 * S, Y
+down	fw 19 * S
+set		Y -391 * S
+up		pos -470 * S, Y
+down	fw 77 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -301 * S, Y
+down	fw 24 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -181 * S, Y
+down	fw 21 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 11 * S, Y
+down	fw 26 * S
+up		pos 56 * S, Y
+down	fw 63 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 269 * S, Y
+down	fw 58 * S
+set		Y -390 * S
+up		pos -470 * S, Y
+down	fw 76 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -300 * S, Y
+down	fw 23 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -181 * S, Y
+down	fw 21 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 12 * S, Y
+down	fw 25 * S
+up		pos 55 * S, Y
+down	fw 64 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 269 * S, Y
+down	fw 59 * S
+set		Y -389 * S
+up		pos -469 * S, Y
+down	fw 74 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -299 * S, Y
+down	fw 22 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -180 * S, Y
+down	fw 19 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 13 * S, Y
+down	fw 25 * S
+up		pos 55 * S, Y
+down	fw 63 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 270 * S, Y
+down	fw 60 * S
+set		Y -388 * S
+up		pos -468 * S, Y
+down	fw 72 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -298 * S, Y
+down	fw 21 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -180 * S, Y
+down	fw 19 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 13 * S, Y
+down	fw 25 * S
+up		pos 55 * S, Y
+down	fw 63 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 271 * S, Y
+down	fw 60 * S
+set		Y -387 * S
+up		pos -467 * S, Y
+down	fw 71 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -298 * S, Y
+down	fw 21 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -180 * S, Y
+down	fw 19 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 14 * S, Y
+down	fw 25 * S
+up		pos 55 * S, Y
+down	fw 62 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 272 * S, Y
+down	fw 58 * S
+set		Y -386 * S
+up		pos -466 * S, Y
+down	fw 68 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -297 * S, Y
+down	fw 20 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -179 * S, Y
+down	fw 17 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 14 * S, Y
+down	fw 25 * S
+up		pos 55 * S, Y
+down	fw 61 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 272 * S, Y
+down	fw 57 * S
+set		Y -385 * S
+up		pos -464 * S, Y
+down	fw 65 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -296 * S, Y
+down	fw 19 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -179 * S, Y
+down	fw 17 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 15 * S, Y
+down	fw 25 * S
+up		pos 55 * S, Y
+down	fw 60 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 273 * S, Y
+down	fw 55 * S
+set		Y -384 * S
+up		pos -463 * S, Y
+down	fw 63 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -295 * S, Y
+down	fw 18 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -179 * S, Y
+down	fw 16 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 15 * S, Y
+down	fw 26 * S
+up		pos 55 * S, Y
+down	fw 60 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 274 * S, Y
+down	fw 53 * S
+set		Y -383 * S
+up		pos -462 * S, Y
+down	fw 61 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -294 * S, Y
+down	fw 17 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -178 * S, Y
+down	fw 15 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 16 * S, Y
+down	fw 25 * S
+up		pos 55 * S, Y
+down	fw 59 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 276 * S, Y
+down	fw 50 * S
+set		Y -382 * S
+up		pos -460 * S, Y
+down	fw 57 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -293 * S, Y
+down	fw 16 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -178 * S, Y
+down	fw 14 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 16 * S, Y
+down	fw 26 * S
+up		pos 54 * S, Y
+down	fw 59 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 277 * S, Y
+down	fw 48 * S
+set		Y -381 * S
+up		pos -459 * S, Y
+down	fw 55 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -292 * S, Y
+down	fw 15 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -177 * S, Y
+down	fw 13 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 17 * S, Y
+down	fw 25 * S
+up		pos 55 * S, Y
+down	fw 57 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 278 * S, Y
+down	fw 46 * S
+set		Y -380 * S
+up		pos -457 * S, Y
+down	fw 51 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -291 * S, Y
+down	fw 14 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -177 * S, Y
+down	fw 13 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 17 * S, Y
+down	fw 26 * S
+up		pos 56 * S, Y
+down	fw 54 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 280 * S, Y
+down	fw 42 * S
+set		Y -379 * S
+up		pos -455 * S, Y
+down	fw 47 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -290 * S, Y
+down	fw 13 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -176 * S, Y
+down	fw 11 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 18 * S, Y
+down	fw 26 * S
+up		pos 58 * S, Y
+down	fw 51 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 281 * S, Y
+down	fw 40 * S
+set		Y -378 * S
+up		pos -453 * S, Y
+down	fw 43 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -289 * S, Y
+down	fw 12 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -176 * S, Y
+down	fw 11 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 18 * S, Y
+down	fw 26 * S
+up		pos 61 * S, Y
+down	fw 46 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 283 * S, Y
+down	fw 36 * S
+set		Y -377 * S
+up		pos -450 * S, Y
+down	fw 37 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -289 * S, Y
+down	fw 12 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+}
+{
+up		pos -176 * S, Y
+down	fw 10 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 19 * S, Y
+down	fw 26 * S
+up		pos 63 * S, Y
+down	fw 43 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 285 * S, Y
+down	fw 32 * S
+set		Y -376 * S
+up		pos -447 * S, Y
+down	fw 31 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -288 * S, Y
+down	fw 11 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -175 * S, Y
+down	fw 9 * S
+up		pos -111 * S, Y
+down	fw 58 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 19 * S, Y
+down	fw 26 * S
+up		pos 66 * S, Y
+down	fw 37 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 288 * S, Y
+down	fw 26 * S
+set		Y -375 * S
+up		pos -443 * S, Y
+down	fw 23 * S
+up		pos -361 * S, Y
+down	fw 23 * S
+up		pos -287 * S, Y
+down	fw 10 * S
+up		pos -254 * S, Y
+down	fw 23 * S
+up		pos -175 * S, Y
+down	fw 9 * S
+up		pos -111 * S, Y
+down	fw 58 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 20 * S, Y
+down	fw 26 * S
+up		pos 70 * S, Y
+down	fw 31 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 292 * S, Y
+down	fw 19 * S
+set		Y -374 * S
+up		pos -438 * S, Y
+down	fw 13 * S
+up		pos -360 * S, Y
+down	fw 22 * S
+up		pos -286 * S, Y
+down	fw 9 * S
+up		pos -253 * S, Y
+down	fw 22 * S
+up		pos -174 * S, Y
+down	fw 7 * S
+up		pos -110 * S, Y
+down	fw 57 * S
+up		pos -34 * S, Y
+down	fw 23 * S
+up		pos 21 * S, Y
+down	fw 25 * S
+up		pos 74 * S, Y
+down	fw 24 * S
+up		pos 140 * S, Y
+down	fw 23 * S
+up		pos 204 * S, Y
+down	fw 23 * S
+up		pos 299 * S, Y
+down	fw S
+up		pos 302 * S, Y
+down	fw S
+set		Y -373 * S
+up		pos -285 * S, Y
+down	fw 8 * S
+up		pos -174 * S, Y
+down	fw 7 * S
+up		pos 79 * S, Y
+down	fw 14 * S
+set		Y -372 * S
+up		pos -284 * S, Y
+down	fw 7 * S
+up		pos -174 * S, Y
+down	fw 6 * S
+set		Y -334 * S
+up		pos -322 * S, Y
+down	fw 3 * S
+up		pos -272 * S, Y
+down	fw 6 * S
+up		pos -149 * S, Y
+down	fw 4 * S
+up		pos 129 * S, Y
+down	fw 3 * S
+up		pos 198 * S, Y
+down	fw 13 * S
+up		pos 264 * S, Y
+down	fw 6 * S
+up		pos 338 * S, Y
+down	fw 6 * S
+set		Y -333 * S
+up		pos -322 * S, Y
+down	fw 3 * S
+up		pos -272 * S, Y
+down	fw 7 * S
+up		pos -157 * S, Y
+down	fw 20 * S
+up		pos 120 * S, Y
+down	fw 20 * S
+up		pos 192 * S, Y
+down	fw 24 * S
+up		pos 264 * S, Y
+down	fw 8 * S
+up		pos 337 * S, Y
+down	fw 7 * S
+set		Y -332 * S
+up		pos -323 * S, Y
+down	fw 5 * S
+up		pos -272 * S, Y
+down	fw 8 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -162 * S, Y
+down	fw 29 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 116 * S, Y
+down	fw 28 * S
+up		pos 188 * S, Y
+down	fw 32 * S
+up		pos 264 * S, Y
+down	fw 8 * S
+up		pos 336 * S, Y
+down	fw 8 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -331 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 39 * S
+up		pos -323 * S, Y
+down	fw 5 * S
+up		pos -272 * S, Y
+down	fw 9 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -165 * S, Y
+down	fw 34 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 113 * S, Y
+down	fw 34 * S
+up		pos 186 * S, Y
+down	fw 37 * S
+up		pos 264 * S, Y
+down	fw 9 * S
+up		pos 335 * S, Y
+down	fw 9 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -330 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 43 * S
+up		pos -324 * S, Y
+down	fw 6 * S
+up		pos -272 * S, Y
+down	fw 10 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -167 * S, Y
+down	fw 38 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 111 * S, Y
+down	fw 37 * S
+up		pos 184 * S, Y
+down	fw 41 * S
+up		pos 264 * S, Y
+down	fw 10 * S
+up		pos 334 * S, Y
+down	fw 10 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -329 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 45 * S
+up		pos -324 * S, Y
+down	fw 7 * S
+up		pos -272 * S, Y
+down	fw 10 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -169 * S, Y
+down	fw 40 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 109 * S, Y
+down	fw 39 * S
+up		pos 182 * S, Y
+down	fw 45 * S
+up		pos 264 * S, Y
+down	fw 11 * S
+up		pos 333 * S, Y
+down	fw 11 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -328 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 48 * S
+up		pos -324 * S, Y
+down	fw 7 * S
+up		pos -272 * S, Y
+down	fw 11 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -171 * S, Y
+down	fw 41 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 107 * S, Y
+down	fw 41 * S
+up		pos 180 * S, Y
+down	fw 49 * S
+up		pos 264 * S, Y
+down	fw 12 * S
+up		pos 332 * S, Y
+down	fw 12 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -327 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 49 * S
+up		pos -325 * S, Y
+down	fw 9 * S
+up		pos -272 * S, Y
+down	fw 12 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -172 * S, Y
+down	fw 42 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 105 * S, Y
+down	fw 43 * S
+up		pos 178 * S, Y
+down	fw 52 * S
+up		pos 264 * S, Y
+down	fw 13 * S
+up		pos 331 * S, Y
+down	fw 13 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -326 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 50 * S
+up		pos -325 * S, Y
+down	fw 9 * S
+up		pos -272 * S, Y
+down	fw 13 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -174 * S, Y
+down	fw 44 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 104 * S, Y
+down	fw 43 * S
+up		pos 177 * S, Y
+down	fw 55 * S
+up		pos 264 * S, Y
+down	fw 14 * S
+up		pos 330 * S, Y
+down	fw 14 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -325 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 52 * S
+up		pos -326 * S, Y
+down	fw 10 * S
+up		pos -272 * S, Y
+down	fw 14 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -175 * S, Y
+down	fw 45 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 102 * S, Y
+down	fw 45 * S
+up		pos 175 * S, Y
+down	fw 58 * S
+up		pos 264 * S, Y
+down	fw 15 * S
+up		pos 329 * S, Y
+down	fw 15 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -324 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 53 * S
+up		pos -326 * S, Y
+down	fw 11 * S
+up		pos -272 * S, Y
+down	fw 15 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -176 * S, Y
+down	fw 46 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 101 * S, Y
+down	fw 46 * S
+up		pos 174 * S, Y
+down	fw 60 * S
+up		pos 264 * S, Y
+down	fw 16 * S
+up		pos 329 * S, Y
+down	fw 15 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -323 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 54 * S
+up		pos -326 * S, Y
+down	fw 11 * S
+up		pos -272 * S, Y
+down	fw 16 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -177 * S, Y
+down	fw 47 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 100 * S, Y
+down	fw 47 * S
+up		pos 173 * S, Y
+down	fw 62 * S
+up		pos 264 * S, Y
+down	fw 17 * S
+up		pos 328 * S, Y
+down	fw 16 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -322 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 54 * S
+up		pos -327 * S, Y
+down	fw 13 * S
+up		pos -272 * S, Y
+down	fw 16 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -178 * S, Y
+down	fw 48 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 99 * S, Y
+down	fw 48 * S
+up		pos 172 * S, Y
+down	fw 64 * S
+up		pos 264 * S, Y
+down	fw 17 * S
+up		pos 327 * S, Y
+down	fw 17 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -321 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 55 * S
+up		pos -327 * S, Y
+down	fw 13 * S
+up		pos -272 * S, Y
+down	fw 17 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -179 * S, Y
+down	fw 49 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 98 * S, Y
+down	fw 49 * S
+up		pos 171 * S, Y
+down	fw 66 * S
+up		pos 264 * S, Y
+down	fw 18 * S
+up		pos 326 * S, Y
+down	fw 18 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -320 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 56 * S
+up		pos -328 * S, Y
+down	fw 14 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -180 * S, Y
+down	fw 49 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 97 * S, Y
+down	fw 50 * S
+up		pos 170 * S, Y
+down	fw 68 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -319 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 57 * S
+up		pos -328 * S, Y
+down	fw 15 * S
+up		pos -272 * S, Y
+down	fw 19 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -181 * S, Y
+down	fw 50 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 96 * S, Y
+down	fw 51 * S
+up		pos 169 * S, Y
+down	fw 70 * S
+up		pos 264 * S, Y
+down	fw 20 * S
+up		pos 324 * S, Y
+down	fw 20 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -318 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 57 * S
+up		pos -328 * S, Y
+down	fw 15 * S
+up		pos -272 * S, Y
+down	fw 20 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -182 * S, Y
+down	fw 51 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 96 * S, Y
+down	fw 50 * S
+up		pos 169 * S, Y
+down	fw 71 * S
+up		pos 264 * S, Y
+down	fw 21 * S
+up		pos 323 * S, Y
+down	fw 21 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -317 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 58 * S
+up		pos -329 * S, Y
+down	fw 17 * S
+up		pos -272 * S, Y
+down	fw 21 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -183 * S, Y
+down	fw 52 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 95 * S, Y
+down	fw 51 * S
+up		pos 168 * S, Y
+down	fw 73 * S
+up		pos 264 * S, Y
+down	fw 22 * S
+up		pos 322 * S, Y
+down	fw 22 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -316 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 58 * S
+up		pos -329 * S, Y
+down	fw 17 * S
+up		pos -272 * S, Y
+down	fw 22 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -183 * S, Y
+down	fw 52 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 45 * S
+up		pos 94 * S, Y
+down	fw 52 * S
+up		pos 167 * S, Y
+down	fw 74 * S
+up		pos 264 * S, Y
+down	fw 23 * S
+up		pos 321 * S, Y
+down	fw 23 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -315 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 58 * S
+up		pos -330 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 22 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -184 * S, Y
+down	fw 31 * S
+up		pos -141 * S, Y
+down	fw 10 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 44 * S
+up		pos 93 * S, Y
+down	fw 31 * S
+up		pos 137 * S, Y
+down	fw 9 * S
+up		pos 167 * S, Y
+down	fw 31 * S
+up		pos 210 * S, Y
+down	fw 32 * S
+up		pos 264 * S, Y
+down	fw 24 * S
+up		pos 320 * S, Y
+down	fw 24 * S
+up		pos 355 * S, Y
+down	fw 61 * S
+set		Y -314 * S
+up		pos -481 * S, Y
+down	fw 44 * S
+up		pos -424 * S, Y
+down	fw 59 * S
+up		pos -330 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 23 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -185 * S, Y
+down	fw 29 * S
+up		pos -137 * S, Y
+down	fw 6 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 93 * S, Y
+down	fw 28 * S
+up		pos 140 * S, Y
+down	fw 6 * S
+up		pos 166 * S, Y
+down	fw 29 * S
+up		pos 214 * S, Y
+down	fw 29 * S
+up		pos 264 * S, Y
+down	fw 25 * S
+up		pos 320 * S, Y
+down	fw 24 * S
+up		pos 376 * S, Y
+down	fw 18 * S
+set		Y -313 * S
+up		pos -481 * S, Y
+down	fw 43 * S
+up		pos -424 * S, Y
+down	fw 59 * S
+up		pos -330 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 24 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -185 * S, Y
+down	fw 26 * S
+up		pos -135 * S, Y
+down	fw 4 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 92 * S, Y
+down	fw 27 * S
+up		pos 143 * S, Y
+down	fw 3 * S
+up		pos 165 * S, Y
+down	fw 28 * S
+up		pos 216 * S, Y
+down	fw 27 * S
+up		pos 264 * S, Y
+down	fw 26 * S
+up		pos 319 * S, Y
+down	fw 25 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+set		Y -312 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -387 * S, Y
+down	fw 22 * S
+up		pos -331 * S, Y
+down	fw 21 * S
+up		pos -272 * S, Y
+down	fw 25 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -186 * S, Y
+down	fw 25 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 92 * S, Y
+down	fw 25 * S
+up		pos 165 * S, Y
+down	fw 26 * S
+up		pos 218 * S, Y
+down	fw 26 * S
+up		pos 264 * S, Y
+down	fw 26 * S
+up		pos 318 * S, Y
+down	fw 26 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+set		Y -311 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -386 * S, Y
+down	fw 22 * S
+up		pos -331 * S, Y
+down	fw 21 * S
+up		pos -272 * S, Y
+down	fw 26 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -186 * S, Y
+down	fw 24 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 91 * S, Y
+down	fw 24 * S
+up		pos 164 * S, Y
+down	fw 25 * S
+up		pos 219 * S, Y
+down	fw 25 * S
+up		pos 264 * S, Y
+down	fw 27 * S
+up		pos 317 * S, Y
+down	fw 27 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+set		Y -310 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -385 * S, Y
+down	fw 21 * S
+up		pos -332 * S, Y
+down	fw 23 * S
+up		pos -272 * S, Y
+down	fw 27 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -187 * S, Y
+down	fw 24 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 91 * S, Y
+down	fw 23 * S
+up		pos 164 * S, Y
+down	fw 24 * S
+up		pos 221 * S, Y
+down	fw 24 * S
+up		pos 264 * S, Y
+down	fw 28 * S
+up		pos 316 * S, Y
+down	fw 28 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+set		Y -309 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -384 * S, Y
+down	fw 20 * S
+up		pos -332 * S, Y
+down	fw 23 * S
+up		pos -272 * S, Y
+down	fw 28 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -187 * S, Y
+down	fw 23 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 90 * S, Y
+down	fw 23 * S
+up		pos 163 * S, Y
+down	fw 24 * S
+up		pos 222 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 29 * S
+up		pos 315 * S, Y
+down	fw 29 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+set		Y -308 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -384 * S, Y
+down	fw 20 * S
+up		pos -333 * S, Y
+down	fw 24 * S
+up		pos -272 * S, Y
+down	fw 29 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -188 * S, Y
+down	fw 23 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 90 * S, Y
+down	fw 22 * S
+up		pos 163 * S, Y
+down	fw 23 * S
+up		pos 223 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 30 * S
+up		pos 314 * S, Y
+down	fw 30 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+set		Y -307 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -383 * S, Y
+down	fw 19 * S
+up		pos -333 * S, Y
+down	fw 25 * S
+up		pos -272 * S, Y
+down	fw 29 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -188 * S, Y
+down	fw 22 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 89 * S, Y
+down	fw 22 * S
+up		pos 163 * S, Y
+down	fw 22 * S
+up		pos 224 * S, Y
+down	fw 22 * S
+up		pos 264 * S, Y
+down	fw 31 * S
+up		pos 313 * S, Y
+down	fw 31 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+set		Y -306 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -383 * S, Y
+down	fw 19 * S
+up		pos -333 * S, Y
+down	fw 25 * S
+up		pos -272 * S, Y
+down	fw 30 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -188 * S, Y
+down	fw 21 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 89 * S, Y
+down	fw 21 * S
+up		pos 162 * S, Y
+down	fw 22 * S
+up		pos 224 * S, Y
+down	fw 22 * S
+up		pos 264 * S, Y
+down	fw 32 * S
+up		pos 312 * S, Y
+down	fw 32 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 448 * S, Y
+down	fw 14 * S
+set		Y -305 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -383 * S, Y
+down	fw 19 * S
+up		pos -334 * S, Y
+down	fw 27 * S
+up		pos -272 * S, Y
+down	fw 31 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -189 * S, Y
+down	fw 21 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 89 * S, Y
+down	fw 21 * S
+up		pos 162 * S, Y
+down	fw 21 * S
+up		pos 225 * S, Y
+down	fw 22 * S
+up		pos 264 * S, Y
+down	fw 33 * S
+up		pos 312 * S, Y
+down	fw 32 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 445 * S, Y
+down	fw 20 * S
+set		Y -304 * S
+up		pos -481 * S, Y
+}
+{
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -383 * S, Y
+down	fw 19 * S
+up		pos -334 * S, Y
+down	fw 27 * S
+up		pos -272 * S, Y
+down	fw 32 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -189 * S, Y
+down	fw 21 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 88 * S, Y
+down	fw 21 * S
+up		pos 161 * S, Y
+down	fw 22 * S
+up		pos 226 * S, Y
+down	fw 21 * S
+up		pos 264 * S, Y
+down	fw 34 * S
+up		pos 311 * S, Y
+down	fw 33 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 443 * S, Y
+down	fw 25 * S
+set		Y -303 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -383 * S, Y
+down	fw 19 * S
+up		pos -335 * S, Y
+down	fw 28 * S
+up		pos -272 * S, Y
+down	fw 33 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -189 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 88 * S, Y
+down	fw 21 * S
+up		pos 161 * S, Y
+down	fw 21 * S
+up		pos 226 * S, Y
+down	fw 21 * S
+up		pos 264 * S, Y
+down	fw 35 * S
+up		pos 310 * S, Y
+down	fw 34 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 441 * S, Y
+down	fw 28 * S
+set		Y -302 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -383 * S, Y
+down	fw 19 * S
+up		pos -335 * S, Y
+down	fw 29 * S
+up		pos -272 * S, Y
+down	fw 34 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -190 * S, Y
+down	fw 21 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 88 * S, Y
+down	fw 20 * S
+up		pos 161 * S, Y
+down	fw 21 * S
+up		pos 227 * S, Y
+down	fw 21 * S
+up		pos 264 * S, Y
+down	fw 35 * S
+up		pos 309 * S, Y
+down	fw 35 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 439 * S, Y
+down	fw 32 * S
+set		Y -301 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -383 * S, Y
+down	fw 19 * S
+up		pos -335 * S, Y
+down	fw 29 * S
+up		pos -272 * S, Y
+down	fw 34 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -190 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 87 * S, Y
+down	fw 21 * S
+up		pos 161 * S, Y
+down	fw 20 * S
+up		pos 227 * S, Y
+down	fw 21 * S
+up		pos 264 * S, Y
+down	fw 36 * S
+up		pos 308 * S, Y
+down	fw 36 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 438 * S, Y
+down	fw 34 * S
+set		Y -300 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -384 * S, Y
+down	fw 20 * S
+up		pos -336 * S, Y
+down	fw 31 * S
+up		pos -272 * S, Y
+down	fw 35 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -190 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 87 * S, Y
+down	fw 20 * S
+up		pos 161 * S, Y
+down	fw 20 * S
+up		pos 228 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 37 * S
+up		pos 307 * S, Y
+down	fw 37 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 436 * S, Y
+down	fw 37 * S
+set		Y -299 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -384 * S, Y
+down	fw 20 * S
+up		pos -336 * S, Y
+down	fw 31 * S
+up		pos -272 * S, Y
+down	fw 36 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -190 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 87 * S, Y
+down	fw 20 * S
+up		pos 160 * S, Y
+down	fw 21 * S
+up		pos 228 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 38 * S
+up		pos 306 * S, Y
+down	fw 38 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 435 * S, Y
+down	fw 39 * S
+set		Y -298 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -385 * S, Y
+down	fw 21 * S
+up		pos -337 * S, Y
+down	fw 32 * S
+up		pos -272 * S, Y
+down	fw 37 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 87 * S, Y
+down	fw 20 * S
+up		pos 160 * S, Y
+down	fw 20 * S
+up		pos 228 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 39 * S
+up		pos 305 * S, Y
+down	fw 39 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 434 * S, Y
+down	fw 41 * S
+set		Y -297 * S
+up		pos -481 * S, Y
+down	fw 39 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -386 * S, Y
+down	fw 21 * S
+up		pos -337 * S, Y
+down	fw 33 * S
+up		pos -272 * S, Y
+down	fw 38 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 87 * S, Y
+down	fw 19 * S
+up		pos 160 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 80 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 433 * S, Y
+down	fw 43 * S
+set		Y -296 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -387 * S, Y
+down	fw 22 * S
+up		pos -337 * S, Y
+down	fw 33 * S
+up		pos -272 * S, Y
+down	fw 39 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 87 * S, Y
+down	fw 19 * S
+up		pos 160 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 80 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 433 * S, Y
+down	fw 44 * S
+set		Y -295 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -390 * S, Y
+down	fw 25 * S
+up		pos -338 * S, Y
+down	fw 35 * S
+up		pos -272 * S, Y
+down	fw 40 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 86 * S, Y
+down	fw 20 * S
+up		pos 160 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 80 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 432 * S, Y
+down	fw 46 * S
+set		Y -294 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 58 * S
+up		pos -338 * S, Y
+down	fw 35 * S
+up		pos -272 * S, Y
+down	fw 41 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 19 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 86 * S, Y
+down	fw 20 * S
+up		pos 160 * S, Y
+down	fw 19 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 80 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 431 * S, Y
+down	fw 47 * S
+set		Y -293 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 58 * S
+up		pos -339 * S, Y
+down	fw 36 * S
+up		pos -272 * S, Y
+down	fw 41 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 19 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 86 * S, Y
+down	fw 20 * S
+up		pos 159 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 18 * S
+up		pos 283 * S, Y
+down	fw 42 * S
+up		pos 326 * S, Y
+down	fw 18 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 431 * S, Y
+down	fw 48 * S
+set		Y -292 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 57 * S
+up		pos -339 * S, Y
+down	fw 37 * S
+up		pos -272 * S, Y
+down	fw 42 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 19 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 86 * S, Y
+down	fw 20 * S
+up		pos 159 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 284 * S, Y
+down	fw 40 * S
+up		pos 326 * S, Y
+down	fw 18 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 430 * S, Y
+down	fw 20 * S
+up		pos 459 * S, Y
+down	fw 20 * S
+set		Y -291 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 57 * S
+up		pos -339 * S, Y
+down	fw 37 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -253 * S, Y
+down	fw 24 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 19 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 86 * S, Y
+down	fw 20 * S
+up		pos 159 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 285 * S, Y
+down	fw 39 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 430 * S, Y
+down	fw 19 * S
+up		pos 461 * S, Y
+down	fw 19 * S
+set		Y -290 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 56 * S
+up		pos -340 * S, Y
+down	fw 19 * S
+up		pos -320 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -252 * S, Y
+down	fw 24 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 19 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 86 * S, Y
+down	fw 20 * S
+up		pos 159 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 286 * S, Y
+down	fw 37 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 429 * S, Y
+down	fw 18 * S
+up		pos 462 * S, Y
+down	fw 18 * S
+set		Y -289 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 56 * S
+up		pos -340 * S, Y
+down	fw 19 * S
+up		pos -320 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -251 * S, Y
+down	fw 24 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 19 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 86 * S, Y
+down	fw 20 * S
+up		pos 159 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 287 * S, Y
+down	fw 35 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 429 * S, Y
+down	fw 17 * S
+up		pos 463 * S, Y
+down	fw 18 * S
+set		Y -288 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 55 * S
+up		pos -341 * S, Y
+down	fw 19 * S
+up		pos -319 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -250 * S, Y
+down	fw 24 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 19 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 86 * S, Y
+down	fw 20 * S
+up		pos 159 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 288 * S, Y
+down	fw 33 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 428 * S, Y
+down	fw 18 * S
+up		pos 464 * S, Y
+down	fw 17 * S
+set		Y -287 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 54 * S
+up		pos -341 * S, Y
+down	fw 19 * S
+up		pos -319 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -249 * S, Y
+down	fw 24 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 19 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 86 * S, Y
+down	fw 20 * S
+up		pos 159 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 288 * S, Y
+down	fw 32 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 428 * S, Y
+down	fw 17 * S
+up		pos 464 * S, Y
+down	fw 17 * S
+set		Y -286 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 53 * S
+up		pos -341 * S, Y
+down	fw 19 * S
+up		pos -319 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -248 * S, Y
+down	fw 23 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -191 * S, Y
+down	fw 19 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 86 * S, Y
+down	fw 20 * S
+up		pos 159 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 289 * S, Y
+down	fw 30 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 427 * S, Y
+down	fw 18 * S
+up		pos 465 * S, Y
+down	fw 17 * S
+set		Y -285 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 52 * S
+up		pos -342 * S, Y
+down	fw 19 * S
+up		pos -318 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -247 * S, Y
+down	fw 42 * S
+up		pos -191 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 86 * S, Y
+down	fw 20 * S
+up		pos 160 * S, Y
+down	fw 19 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 290 * S, Y
+down	fw 28 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 427 * S, Y
+down	fw 17 * S
+up		pos 465 * S, Y
+down	fw 17 * S
+set		Y -284 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 51 * S
+up		pos -342 * S, Y
+down	fw 19 * S
+up		pos -318 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -246 * S, Y
+down	fw 41 * S
+up		pos -191 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 86 * S, Y
+down	fw 20 * S
+up		pos 160 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 291 * S, Y
+down	fw 26 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 427 * S, Y
+down	fw 17 * S
+up		pos 466 * S, Y
+down	fw 16 * S
+set		Y -283 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 50 * S
+up		pos -343 * S, Y
+down	fw 20 * S
+up		pos -318 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -246 * S, Y
+down	fw 41 * S
+up		pos -191 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 87 * S, Y
+down	fw 19 * S
+up		pos 160 * S, Y
+down	fw 20 * S
+up		pos 229 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 292 * S, Y
+down	fw 24 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 427 * S, Y
+down	fw 16 * S
+up		pos 466 * S, Y
+down	fw 17 * S
+set		Y -282 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 48 * S
+up		pos -343 * S, Y
+down	fw 19 * S
+up		pos -317 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -245 * S, Y
+down	fw 40 * S
+up		pos -191 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 87 * S, Y
+down	fw 20 * S
+up		pos 160 * S, Y
+down	fw 20 * S
+up		pos 228 * S, Y
+down	fw 21 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 293 * S, Y
+down	fw 22 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 427 * S, Y
+down	fw 16 * S
+up		pos 466 * S, Y
+down	fw 17 * S
+set		Y -281 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 46 * S
+up		pos -343 * S, Y
+down	fw 19 * S
+up		pos -317 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -244 * S, Y
+down	fw 39 * S
+up		pos -190 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 61 * S
+up		pos -36 * S, Y
+down	fw 41 * S
+up		pos 87 * S, Y
+down	fw 20 * S
+up		pos 160 * S, Y
+down	fw 20 * S
+up		pos 228 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 294 * S, Y
+down	fw 20 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 426 * S, Y
+down	fw 57 * S
+set		Y -280 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 44 * S
+up		pos -344 * S, Y
+down	fw 20 * S
+up		pos -317 * S, Y
+down	fw 20 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -243 * S, Y
+down	fw 38 * S
+up		pos -190 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 87 * S, Y
+down	fw 20 * S
+up		pos 160 * S, Y
+down	fw 21 * S
+up		pos 228 * S, Y
+down	fw 20 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 295 * S, Y
+down	fw 18 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 426 * S, Y
+down	fw 57 * S
+set		Y -279 * S
+up		pos -481 * S, Y
+down	fw 40 * S
+up		pos -424 * S, Y
+down	fw 44 * S
+up		pos -344 * S, Y
+down	fw 19 * S
+up		pos -316 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -242 * S, Y
+down	fw 37 * S
+up		pos -190 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 87 * S, Y
+down	fw 21 * S
+up		pos 161 * S, Y
+down	fw 20 * S
+up		pos 227 * S, Y
+down	fw 21 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 296 * S, Y
+down	fw 16 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 426 * S, Y
+down	fw 57 * S
+set		Y -278 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 45 * S
+up		pos -345 * S, Y
+down	fw 20 * S
+up		pos -316 * S, Y
+down	fw 20 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -241 * S, Y
+down	fw 36 * S
+up		pos -190 * S, Y
+down	fw 21 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 88 * S, Y
+down	fw 20 * S
+up		pos 161 * S, Y
+down	fw 20 * S
+up		pos 227 * S, Y
+down	fw 21 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 297 * S, Y
+down	fw 14 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 426 * S, Y
+down	fw 57 * S
+set		Y -277 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -398 * S, Y
+down	fw 19 * S
+up		pos -345 * S, Y
+down	fw 20 * S
+up		pos -316 * S, Y
+down	fw 20 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -240 * S, Y
+down	fw 35 * S
+up		pos -189 * S, Y
+down	fw 20 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 88 * S, Y
+down	fw 21 * S
+up		pos 161 * S, Y
+down	fw 21 * S
+up		pos 227 * S, Y
+down	fw 21 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 298 * S, Y
+down	fw 12 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 426 * S, Y
+down	fw 57 * S
+set		Y -276 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+}
+{
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -398 * S, Y
+down	fw 20 * S
+up		pos -346 * S, Y
+down	fw 20 * S
+up		pos -315 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -239 * S, Y
+down	fw 34 * S
+up		pos -189 * S, Y
+down	fw 21 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 88 * S, Y
+down	fw 21 * S
+up		pos 161 * S, Y
+down	fw 21 * S
+up		pos 226 * S, Y
+down	fw 21 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 299 * S, Y
+down	fw 10 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 426 * S, Y
+down	fw 57 * S
+set		Y -275 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -397 * S, Y
+down	fw 19 * S
+up		pos -346 * S, Y
+down	fw 20 * S
+up		pos -315 * S, Y
+down	fw 20 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -238 * S, Y
+down	fw 33 * S
+up		pos -189 * S, Y
+down	fw 21 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 89 * S, Y
+down	fw 21 * S
+up		pos 162 * S, Y
+down	fw 21 * S
+up		pos 226 * S, Y
+down	fw 21 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 300 * S, Y
+down	fw 8 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 426 * S, Y
+down	fw 57 * S
+set		Y -274 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -397 * S, Y
+down	fw 20 * S
+up		pos -346 * S, Y
+down	fw 19 * S
+up		pos -315 * S, Y
+down	fw 20 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -237 * S, Y
+down	fw 32 * S
+up		pos -188 * S, Y
+down	fw 21 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 89 * S, Y
+down	fw 21 * S
+up		pos 162 * S, Y
+down	fw 22 * S
+up		pos 225 * S, Y
+down	fw 22 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 301 * S, Y
+down	fw 6 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 426 * S, Y
+down	fw 57 * S
+set		Y -273 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -396 * S, Y
+down	fw 20 * S
+up		pos -347 * S, Y
+down	fw 20 * S
+up		pos -314 * S, Y
+down	fw 20 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -237 * S, Y
+down	fw 32 * S
+up		pos -188 * S, Y
+down	fw 22 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 89 * S, Y
+down	fw 22 * S
+up		pos 162 * S, Y
+down	fw 22 * S
+up		pos 224 * S, Y
+down	fw 22 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 302 * S, Y
+down	fw 4 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 426 * S, Y
+down	fw 57 * S
+set		Y -272 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -396 * S, Y
+down	fw 20 * S
+up		pos -347 * S, Y
+down	fw 20 * S
+up		pos -314 * S, Y
+down	fw 20 * S
+up		pos Y, Y
+down	fw 18 * S
+up		pos -236 * S, Y
+down	fw 31 * S
+up		pos -188 * S, Y
+down	fw 23 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 90 * S, Y
+down	fw 22 * S
+up		pos 163 * S, Y
+down	fw 22 * S
+up		pos 223 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 303 * S, Y
+down	fw 2 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 426 * S, Y
+down	fw 57 * S
+set		Y -271 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -395 * S, Y
+down	fw 20 * S
+up		pos -348 * S, Y
+down	fw 20 * S
+up		pos -313 * S, Y
+down	fw 19 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -235 * S, Y
+down	fw 30 * S
+up		pos -187 * S, Y
+down	fw 23 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 90 * S, Y
+down	fw 23 * S
+up		pos 163 * S, Y
+down	fw 23 * S
+up		pos 223 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 427 * S, Y
+down	fw 56 * S
+set		Y -270 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -394 * S, Y
+down	fw 19 * S
+up		pos -348 * S, Y
+down	fw 55 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -234 * S, Y
+down	fw 29 * S
+up		pos -187 * S, Y
+down	fw 24 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 91 * S, Y
+down	fw 23 * S
+up		pos 163 * S, Y
+down	fw 24 * S
+up		pos 222 * S, Y
+down	fw 23 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 427 * S, Y
+down	fw 16 * S
+set		Y -269 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -394 * S, Y
+down	fw 20 * S
+up		pos -348 * S, Y
+down	fw 55 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -233 * S, Y
+down	fw 28 * S
+up		pos -186 * S, Y
+down	fw 24 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 91 * S, Y
+down	fw 24 * S
+up		pos 164 * S, Y
+down	fw 24 * S
+up		pos 220 * S, Y
+down	fw 25 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 427 * S, Y
+down	fw 17 * S
+set		Y -268 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -393 * S, Y
+down	fw 19 * S
+up		pos -349 * S, Y
+down	fw 57 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -232 * S, Y
+down	fw 27 * S
+up		pos -186 * S, Y
+down	fw 25 * S
+up		pos -131 * S, Y
+down	fw S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 91 * S, Y
+down	fw 26 * S
+up		pos 146 * S, Y
+down	fw S
+up		pos 164 * S, Y
+down	fw 25 * S
+up		pos 219 * S, Y
+down	fw 25 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 427 * S, Y
+down	fw 17 * S
+set		Y -267 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -393 * S, Y
+down	fw 20 * S
+up		pos -349 * S, Y
+down	fw 57 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -231 * S, Y
+down	fw 26 * S
+up		pos -185 * S, Y
+down	fw 26 * S
+up		pos -133 * S, Y
+down	fw 3 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 92 * S, Y
+down	fw 27 * S
+up		pos 144 * S, Y
+down	fw 4 * S
+up		pos 165 * S, Y
+down	fw 26 * S
+up		pos 217 * S, Y
+down	fw 27 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 427 * S, Y
+down	fw 18 * S
+set		Y -266 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -392 * S, Y
+down	fw 19 * S
+up		pos -350 * S, Y
+down	fw 58 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -230 * S, Y
+down	fw 25 * S
+up		pos -185 * S, Y
+down	fw 29 * S
+up		pos -136 * S, Y
+down	fw 7 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 93 * S, Y
+down	fw 28 * S
+up		pos 141 * S, Y
+down	fw 7 * S
+up		pos 166 * S, Y
+down	fw 27 * S
+up		pos 215 * S, Y
+down	fw 28 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 428 * S, Y
+down	fw 17 * S
+up		pos 470 * S, Y
+down	fw S
+set		Y -265 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -392 * S, Y
+down	fw 20 * S
+up		pos -350 * S, Y
+down	fw 59 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -229 * S, Y
+down	fw 24 * S
+up		pos -184 * S, Y
+down	fw 31 * S
+up		pos -141 * S, Y
+down	fw 12 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 19 * S
+up		pos 93 * S, Y
+down	fw 32 * S
+up		pos 137 * S, Y
+down	fw 11 * S
+up		pos 166 * S, Y
+down	fw 30 * S
+up		pos 213 * S, Y
+down	fw 29 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 428 * S, Y
+down	fw 18 * S
+up		pos 469 * S, Y
+down	fw 3 * S
+set		Y -264 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -391 * S, Y
+down	fw 20 * S
+up		pos -350 * S, Y
+down	fw 59 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -229 * S, Y
+down	fw 24 * S
+up		pos -183 * S, Y
+down	fw 54 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 94 * S, Y
+down	fw 54 * S
+up		pos 167 * S, Y
+down	fw 33 * S
+up		pos 208 * S, Y
+down	fw 34 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 429 * S, Y
+down	fw 18 * S
+up		pos 467 * S, Y
+down	fw 6 * S
+set		Y -263 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -391 * S, Y
+down	fw 20 * S
+up		pos -351 * S, Y
+down	fw 61 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -228 * S, Y
+down	fw 23 * S
+up		pos -183 * S, Y
+down	fw 54 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 95 * S, Y
+down	fw 53 * S
+up		pos 167 * S, Y
+down	fw 74 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 429 * S, Y
+down	fw 19 * S
+up		pos 466 * S, Y
+down	fw 8 * S
+set		Y -262 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -390 * S, Y
+down	fw 20 * S
+up		pos -351 * S, Y
+down	fw 61 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -227 * S, Y
+down	fw 22 * S
+up		pos -182 * S, Y
+down	fw 53 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 95 * S, Y
+down	fw 53 * S
+up		pos 168 * S, Y
+down	fw 72 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 326 * S, Y
+down	fw 18 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 430 * S, Y
+down	fw 20 * S
+up		pos 464 * S, Y
+down	fw 12 * S
+set		Y -261 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -390 * S, Y
+down	fw 20 * S
+up		pos -352 * S, Y
+down	fw 62 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -226 * S, Y
+down	fw 21 * S
+up		pos -181 * S, Y
+down	fw 52 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 96 * S, Y
+down	fw 52 * S
+up		pos 169 * S, Y
+down	fw 71 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 430 * S, Y
+down	fw 24 * S
+up		pos 460 * S, Y
+down	fw 17 * S
+set		Y -260 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -389 * S, Y
+down	fw 20 * S
+up		pos -352 * S, Y
+down	fw 63 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -225 * S, Y
+down	fw 20 * S
+up		pos -180 * S, Y
+down	fw 51 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 97 * S, Y
+down	fw 52 * S
+up		pos 170 * S, Y
+down	fw 69 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 431 * S, Y
+down	fw 47 * S
+set		Y -259 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -389 * S, Y
+down	fw 20 * S
+up		pos -353 * S, Y
+down	fw 64 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -224 * S, Y
+down	fw 19 * S
+up		pos -180 * S, Y
+down	fw 51 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 98 * S, Y
+down	fw 51 * S
+up		pos 171 * S, Y
+down	fw 67 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 431 * S, Y
+down	fw 48 * S
+set		Y -258 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -388 * S, Y
+down	fw 20 * S
+up		pos -353 * S, Y
+down	fw 65 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -223 * S, Y
+down	fw 18 * S
+up		pos -179 * S, Y
+down	fw 50 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 99 * S, Y
+down	fw 50 * S
+up		pos 171 * S, Y
+down	fw 66 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 432 * S, Y
+down	fw 48 * S
+set		Y -257 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -388 * S, Y
+down	fw 21 * S
+up		pos -353 * S, Y
+down	fw 65 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -222 * S, Y
+down	fw 17 * S
+up		pos -178 * S, Y
+down	fw 50 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 100 * S, Y
+down	fw 49 * S
+up		pos 172 * S, Y
+down	fw 64 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 433 * S, Y
+down	fw 47 * S
+set		Y -256 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -387 * S, Y
+down	fw 20 * S
+up		pos -354 * S, Y
+down	fw 66 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -221 * S, Y
+down	fw 16 * S
+up		pos -176 * S, Y
+down	fw 48 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 101 * S, Y
+down	fw 48 * S
+up		pos 173 * S, Y
+down	fw 62 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 434 * S, Y
+down	fw 45 * S
+set		Y -255 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -387 * S, Y
+down	fw 21 * S
+up		pos -354 * S, Y
+down	fw 67 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -220 * S, Y
+down	fw 15 * S
+up		pos -175 * S, Y
+down	fw 47 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 102 * S, Y
+down	fw 47 * S
+up		pos 175 * S, Y
+down	fw 59 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 435 * S, Y
+down	fw 43 * S
+set		Y -254 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -386 * S, Y
+down	fw 20 * S
+up		pos -354 * S, Y
+down	fw 67 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -220 * S, Y
+down	fw 15 * S
+up		pos -174 * S, Y
+down	fw 46 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 103 * S, Y
+down	fw 46 * S
+up		pos 176 * S, Y
+down	fw 57 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 436 * S, Y
+down	fw 41 * S
+set		Y -253 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -385 * S, Y
+down	fw 20 * S
+up		pos -355 * S, Y
+down	fw 20 * S
+up		pos -306 * S, Y
+down	fw 20 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -219 * S, Y
+down	fw 14 * S
+up		pos -173 * S, Y
+down	fw 45 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 105 * S, Y
+down	fw 45 * S
+up		pos 177 * S, Y
+down	fw 54 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 437 * S, Y
+down	fw 38 * S
+set		Y -252 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -385 * S, Y
+down	fw 20 * S
+up		pos -355 * S, Y
+down	fw 20 * S
+up		pos -306 * S, Y
+down	fw 20 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -218 * S, Y
+down	fw 13 * S
+up		pos -171 * S, Y
+down	fw 43 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 106 * S, Y
+down	fw 44 * S
+up		pos 178 * S, Y
+down	fw 52 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 438 * S, Y
+down	fw 36 * S
+set		Y -251 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -384 * S, Y
+down	fw 20 * S
+up		pos -356 * S, Y
+down	fw 21 * S
+up		pos -306 * S, Y
+down	fw 21 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -217 * S, Y
+down	fw 12 * S
+up		pos -169 * S, Y
+down	fw 41 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 108 * S, Y
+down	fw 42 * S
+up		pos 180 * S, Y
+down	fw 48 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 440 * S, Y
+down	fw 33 * S
+set		Y -250 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -384 * S, Y
+down	fw 20 * S
+up		pos -356 * S, Y
+down	fw 20 * S
+up		pos -305 * S, Y
+down	fw 20 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -216 * S, Y
+down	fw 11 * S
+up		pos -167 * S, Y
+down	fw 39 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 110 * S, Y
+down	fw 40 * S
+up		pos 182 * S, Y
+down	fw 45 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 442 * S, Y
+down	fw 29 * S
+set		Y -249 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -383 * S, Y
+down	fw 20 * S
+up		pos -357 * S, Y
+down	fw 21 * S
+up		pos -305 * S, Y
+down	fw 20 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -215 * S, Y
+down	fw 10 * S
+up		pos -165 * S, Y
+down	fw 36 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 112 * S, Y
+down	fw 37 * S
+up		pos 184 * S, Y
+down	fw 41 * S
+up		pos 264 * S, Y
+}
+{
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 444 * S, Y
+down	fw 25 * S
+set		Y -248 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -383 * S, Y
+down	fw 21 * S
+up		pos -357 * S, Y
+down	fw 21 * S
+up		pos -305 * S, Y
+down	fw 21 * S
+up		pos -272 * S, Y
+down	fw 19 * S
+up		pos -214 * S, Y
+down	fw 9 * S
+up		pos -162 * S, Y
+down	fw 30 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 115 * S, Y
+down	fw 31 * S
+up		pos 186 * S, Y
+down	fw 37 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 447 * S, Y
+down	fw 19 * S
+set		Y -247 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -382 * S, Y
+down	fw 20 * S
+up		pos -357 * S, Y
+down	fw 20 * S
+up		pos -304 * S, Y
+down	fw 20 * S
+up		pos -272 * S, Y
+down	fw 18 * S
+up		pos -213 * S, Y
+down	fw 8 * S
+up		pos -158 * S, Y
+down	fw 22 * S
+up		pos -115 * S, Y
+down	fw 18 * S
+up		pos -72 * S, Y
+down	fw 18 * S
+up		pos -36 * S, Y
+down	fw 46 * S
+up		pos 119 * S, Y
+down	fw 23 * S
+up		pos 189 * S, Y
+down	fw 30 * S
+up		pos 264 * S, Y
+down	fw 19 * S
+up		pos 325 * S, Y
+down	fw 19 * S
+up		pos 376 * S, Y
+down	fw 19 * S
+up		pos 451 * S, Y
+down	fw 11 * S
+set		Y -246 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -382 * S, Y
+down	fw 21 * S
+up		pos -358 * S, Y
+down	fw 21 * S
+up		pos -304 * S, Y
+down	fw 21 * S
+up		pos -271 * S, Y
+down	fw 17 * S
+up		pos -212 * S, Y
+down	fw 7 * S
+up		pos -153 * S, Y
+down	fw 11 * S
+up		pos -114 * S, Y
+down	fw 17 * S
+up		pos -71 * S, Y
+down	fw 16 * S
+up		pos -35 * S, Y
+down	fw 44 * S
+up		pos 124 * S, Y
+down	fw 12 * S
+up		pos 193 * S, Y
+down	fw 23 * S
+up		pos 265 * S, Y
+down	fw 17 * S
+up		pos 326 * S, Y
+down	fw 17 * S
+up		pos 377 * S, Y
+down	fw 17 * S
+set		Y -245 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -381 * S, Y
+down	fw 20 * S
+up		pos -358 * S, Y
+down	fw 20 * S
+up		pos -303 * S, Y
+down	fw 20 * S
+up		pos -212 * S, Y
+down	fw 7 * S
+up		pos 198 * S, Y
+down	fw 12 * S
+set		Y -244 * S
+up		pos -481 * S, Y
+down	fw 18 * S
+up		pos -424 * S, Y
+down	fw 18 * S
+up		pos -381 * S, Y
+down	fw 20 * S
+up		pos -358 * S, Y
+down	fw 20 * S
+up		pos -303 * S, Y
+down	fw 20 * S
+up		pos -211 * S, Y
+down	fw 5 * S
+color	RZ2, GZ2, BZ2
+up		pos -398 * S, -483 * S
+down	fw 6 * S
+set		Y -482 * S
+up		pos -401 * S, Y
+down	fw 12 * S
+up		pos 278 * S, Y
+down	fw 3 * S
+up		pos 314 * S, Y
+down	fw 2 * S
+set		Y -481 * S
+up		pos -403 * S, Y
+down	fw 16 * S
+up		pos 277 * S, Y
+down	fw 5 * S
+up		pos 312 * S, Y
+down	fw 5 * S
+set		Y -480 * S
+up		pos -404 * S, Y
+down	fw 18 * S
+up		pos 276 * S, Y
+down	fw 8 * S
+up		pos 311 * S, Y
+down	fw 7 * S
+set		Y -479 * S
+up		pos -405 * S, Y
+down	fw 20 * S
+up		pos 275 * S, Y
+down	fw 10 * S
+up		pos 310 * S, Y
+down	fw 10 * S
+set		Y -478 * S
+up		pos -406 * S, Y
+down	fw 22 * S
+up		pos 274 * S, Y
+down	fw 13 * S
+up		pos 308 * S, Y
+down	fw 13 * S
+set		Y -477 * S
+up		pos -407 * S, Y
+down	fw 24 * S
+up		pos 273 * S, Y
+down	fw 16 * S
+up		pos 306 * S, Y
+down	fw 16 * S
+set		Y -476 * S
+up		pos -407 * S, Y
+down	fw 25 * S
+up		pos 272 * S, Y
+down	fw 21 * S
+up		pos 302 * S, Y
+down	fw 21 * S
+set		Y -475 * S
+up		pos -408 * S, Y
+down	fw 26 * S
+up		pos 271 * S, Y
+down	fw 53 * S
+set		Y -474 * S
+up		pos -408 * S, Y
+down	fw 27 * S
+up		pos 269 * S, Y
+down	fw 56 * S
+set		Y -473 * S
+up		pos -409 * S, Y
+down	fw 28 * S
+up		pos 268 * S, Y
+down	fw 59 * S
+set		Y -472 * S
+up		pos -409 * S, Y
+down	fw 28 * S
+up		pos 268 * S, Y
+down	fw 59 * S
+set		Y -471 * S
+up		pos -409 * S, Y
+down	fw 29 * S
+up		pos 268 * S, Y
+down	fw 58 * S
+set		Y -470 * S
+up		pos -409 * S, Y
+down	fw 29 * S
+up		pos 269 * S, Y
+down	fw 56 * S
+set		Y -469 * S
+up		pos -409 * S, Y
+down	fw 29 * S
+up		pos 270 * S, Y
+down	fw 54 * S
+set		Y -468 * S
+up		pos -409 * S, Y
+down	fw 29 * S
+up		pos 271 * S, Y
+down	fw 52 * S
+set		Y -467 * S
+up		pos -409 * S, Y
+down	fw 29 * S
+up		pos 273 * S, Y
+down	fw 49 * S
+set		Y -466 * S
+up		pos -409 * S, Y
+down	fw 28 * S
+up		pos 274 * S, Y
+down	fw 47 * S
+set		Y -465 * S
+up		pos -409 * S, Y
+down	fw 28 * S
+up		pos 275 * S, Y
+down	fw 45 * S
+set		Y -464 * S
+up		pos -408 * S, Y
+down	fw 27 * S
+up		pos 277 * S, Y
+down	fw 41 * S
+set		Y -463 * S
+up		pos -408 * S, Y
+down	fw 26 * S
+up		pos 278 * S, Y
+down	fw 38 * S
+set		Y -462 * S
+up		pos -407 * S, Y
+down	fw 25 * S
+up		pos 280 * S, Y
+down	fw 34 * S
+set		Y -461 * S
+up		pos -407 * S, Y
+down	fw 24 * S
+up		pos 282 * S, Y
+down	fw 30 * S
+set		Y -460 * S
+up		pos -406 * S, Y
+down	fw 22 * S
+up		pos 285 * S, Y
+down	fw 25 * S
+set		Y -459 * S
+up		pos -405 * S, Y
+down	fw 20 * S
+up		pos 289 * S, Y
+down	fw 17 * S
+up		pos -404 * S, -458 * S
+down	fw 18 * S
+up		pos -403 * S, -457 * S
+down	fw 16 * S
+up		pos -401 * S, -456 * S
+down	fw 13 * S
+up		pos -399 * S, -455 * S
+down	fw 8 * S
+set		Y -333 * S
+up		pos 439 * S, Y
+down	fw S
+up		pos 467 * S, Y
+down	fw S
+set		Y -332 * S
+up		pos 438 * S, Y
+down	fw 3 * S
+up		pos 466 * S, Y
+down	fw 3 * S
+set		Y -331 * S
+up		pos 437 * S, Y
+down	fw 6 * S
+up		pos 464 * S, Y
+down	fw 6 * S
+set		Y -330 * S
+up		pos 435 * S, Y
+down	fw 9 * S
+up		pos 463 * S, Y
+down	fw 9 * S
+set		Y -329 * S
+up		pos 434 * S, Y
+down	fw 12 * S
+up		pos 461 * S, Y
+down	fw 12 * S
+set		Y -328 * S
+up		pos 433 * S, Y
+down	fw 16 * S
+up		pos 458 * S, Y
+down	fw 16 * S
+up		pos 432 * S, -327 * S
+down	fw 43 * S
+up		pos 431 * S, -326 * S
+down	fw 45 * S
+up		pos 430 * S, -325 * S
+down	fw 47 * S
+up		pos 430 * S, -324 * S
+down	fw 47 * S
+up		pos 431 * S, -323 * S
+down	fw 45 * S
+up		pos 432 * S, -322 * S
+down	fw 43 * S
+up		pos 433 * S, -321 * S
+down	fw 41 * S
+up		pos 434 * S, -320 * S
+down	fw 39 * S
+up		pos 436 * S, -319 * S
+down	fw 35 * S
+up		pos 437 * S, -318 * S
+down	fw 33 * S
+up		pos 439 * S, -317 * S
+down	fw 29 * S
+up		pos 441 * S, -316 * S
+down	fw 25 * S
+up		pos 444 * S, -315 * S
+down	fw 19 * S
+up		pos 448 * S, -314 * S
+down	fw 11 * S
+set		Y -298 * S
+up		pos 29 * S, Y
+down	fw S
+up		pos 64 * S, Y
+down	fw 2 * S
+set		Y -297 * S
+up		pos 28 * S, Y
+down	fw 3 * S
+up		pos 63 * S, Y
+down	fw 4 * S
+set		Y -296 * S
+up		pos 27 * S, Y
+down	fw 6 * S
+up		pos 62 * S, Y
+down	fw 6 * S
+set		Y -295 * S
+up		pos 26 * S, Y
+down	fw 8 * S
+up		pos 60 * S, Y
+down	fw 9 * S
+set		Y -294 * S
+up		pos 24 * S, Y
+down	fw 12 * S
+up		pos 59 * S, Y
+down	fw 11 * S
+set		Y -293 * S
+up		pos 23 * S, Y
+down	fw 15 * S
+up		pos 57 * S, Y
+down	fw 14 * S
+set		Y -292 * S
+up		pos 22 * S, Y
+down	fw 18 * S
+up		pos 54 * S, Y
+down	fw 18 * S
+up		pos 21 * S, -291 * S
+down	fw 52 * S
+up		pos 20 * S, -290 * S
+down	fw 55 * S
+up		pos 19 * S, -289 * S
+down	fw 57 * S
+up		pos 18 * S, -288 * S
+down	fw 59 * S
+up		pos 18 * S, -287 * S
+down	fw 59 * S
+up		pos 19 * S, -286 * S
+down	fw 57 * S
+up		pos 20 * S, -285 * S
+down	fw 55 * S
+up		pos 21 * S, -284 * S
+down	fw 53 * S
+up		pos 22 * S, -283 * S
+down	fw 51 * S
+up		pos 23 * S, -282 * S
+down	fw 49 * S
+up		pos 24 * S, -281 * S
+down	fw 46 * S
+up		pos 26 * S, -280 * S
+down	fw 43 * S
+up		pos 27 * S, -279 * S
+down	fw 40 * S
+up		pos 29 * S, -278 * S
+down	fw 36 * S
+up		pos 31 * S, -277 * S
+down	fw 33 * S
+up		pos 34 * S, -276 * S
+down	fw 27 * S
+up		pos 37 * S, -275 * S
+down	fw 21 * S
+up		pos 43 * S, -274 * S
+down	fw 9 * S
+}
+
+set BIGZVAL - ( 2 ^ 53 )
+set ANGLE 360
+set X 0
+set Y 0
+set PREVZ1 0
+set PREVZ2 0
+set PREVZ3 0 
+repeat NZITERATIONS {
+	set CURRZ1 BIGZVAL + random(0, 1) - BIGZVAL
+	set CURRZ2 BIGZVAL + random(0, 1) - BIGZVAL
+	set CURRZ3 BIGZVAL + random(0, 1) - BIGZVAL
+	set CURRZ3 ( 1 - CURRZ1 ) * ( 1 - CURRZ2 ) * CURRZ3
+	set RANDZINDEX CURRZ1 + CURRZ2 + CURRZ2 + 4 * CURRZ3
+	repeat 1 - ( BIGZVAL + 1 / ( 1 + ( PREVZ1 + 2 * PREVZ2 - PREVZ3 - RANDZINDEX + 1 ) ^ 2 ) - BIGZVAL ) {
+		repeat 1 - ( BIGZVAL + 1 / ( 1 + ( PREVZ1 * ( 5 * PREVZ2 + 2 * PREVZ3 - 4 ) + PREVZ2 * ( 2 * PREVZ3 - 3 ) + 2 * PREVZ3 ^ 2 - 3 * PREVZ3 - RANDZINDEX + 4 ) ^ 2 ) - BIGZVAL ) {
+			color .1 + .2 * RANDZINDEX , .5 - .1 * RANDZINDEX, 1 - .25 * RANDZINDEX
+			set X ( X + AMPLITUDE * cos( 72 * ( 3.75 + RANDZINDEX ) + ANGLE ) ) / 2
+			set Y ( 30 + Y + AMPLITUDE * sin( 72 * ( 3.75 + RANDZINDEX ) + ANGLE ) ) / 2
+			up position X, 140 + Y
+			down position 1 + X, 140 + Y
+			set PREVZ1 CURRZ1
+			set PREVZ2 CURRZ2
+			set PREVZ3 CURRZ3
+		}
+	}
+}
+
+

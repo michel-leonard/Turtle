@@ -1,0 +1,41 @@
+proc TOWER {
+  heading 0
+  down
+  forward 200
+  repeat 4 {
+    right 90
+    fw 10
+    right 90
+    fw 20
+    left 90
+    fw 10
+    left 90
+    fw 20
+  }
+
+  right 90
+  fw 10
+  heading 0
+  bw 100
+}
+
+proc CRENEL {
+  repeat 4 {
+    right 90 fw 10
+    right 90 fw 20
+    left 90 fw 10
+    left 90 fw 20
+  }
+}
+
+up
+position -100, 0
+down
+call TOWER
+fw 100
+call CRENEL
+bw 100
+call TOWER
+left 90
+fw 260
+right 90

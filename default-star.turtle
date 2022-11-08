@@ -1,0 +1,6 @@
+color 1, 0.5, 0
+
+repeat 7 {
+  fw 300
+  right 4 * 360 / 7
+}

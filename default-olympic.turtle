@@ -1,0 +1,27 @@
+proc CIRCLE {
+  repeat 360 {
+    fw 70
+    down
+    fw 7
+    up
+    bw 77
+    left 1
+  }
+}
+
+up
+
+fw 50 right 90 fw 165 left 90
+color 1, 0, 0 call CIRCLE
+
+left 90 fw 165
+color 0.7, 0.7, 0.7 call CIRCLE
+
+fw 165
+color 0, 0, 1 call CIRCLE
+
+right 40 bw 110 right 140
+color 1, 1, 0 call CIRCLE
+
+fw 165 color 0, 1, 0
+call CIRCLE

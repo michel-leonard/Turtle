@@ -1,0 +1,45 @@
+set SCALE 520
+set NQITERATIONS 100000
+set COLOR 1
+set BIGQVAL - ( 2 ^ 53 )
+set C .2
+set Y - 500
+repeat 1000 {
+	set C C + 0.0003
+	color C, C / 2, C
+	up position -500, Y
+	down position 500, Y
+	set Y 1 + Y
+}
+proc PENTAQSTAR {
+	set ANGLE 360 * COLOR
+	set X 0
+	set Y 0
+	set PREVQ1 0
+	set PREVQ2 0
+	set PREVQ3 0
+	repeat NQITERATIONS {
+		set CURRQ1 BIGQVAL + random(0, 1) - BIGQVAL
+		set CURRQ2 BIGQVAL + random(0, 1) - BIGQVAL
+		set CURRQ3 BIGQVAL + random(0, 1) - BIGQVAL
+		set CURRQ3 ( 1 - CURRQ1 ) * ( 1 - CURRQ2 ) * CURRQ3
+		set RANDQINDEX CURRQ1 + CURRQ2 + CURRQ2 + 4 * CURRQ3
+		repeat 1 - ( BIGQVAL + 1 / ( 1 + ( PREVQ1 + 2 * PREVQ2 - PREVQ3 - RANDQINDEX + 1 ) ^ 2 ) - BIGQVAL ) {
+			repeat 1 - ( BIGQVAL + 1 / ( 1 + ( PREVQ1 * ( 5 * PREVQ2 + 2 * PREVQ3 - 4 ) + PREVQ2 * ( 2 * PREVQ3 - 3 ) + 2 * PREVQ3 ^ 2 - 3 * PREVQ3 - RANDQINDEX + 4 ) ^ 2 ) - BIGQVAL ) {
+				color COLOR - .1 * RANDQINDEX ,  .5 + .1 * RANDQINDEX, COLOR / ( 1 + RANDQINDEX )
+				set X ( X + SCALE * cos( 72 * ( 3.75 + RANDQINDEX ) + ANGLE ) ) / 2
+				set Y ( 30 + Y + SCALE * sin( 72 * ( 3.75 + RANDQINDEX ) + ANGLE ) ) / 2
+				up position X, Y
+				down position 1 + X, 1 + Y
+				set PREVQ1 CURRQ1
+				set PREVQ2 CURRQ2
+				set PREVQ3 CURRQ3
+			}
+		}
+	}
+}
+call PENTAQSTAR
+set SCALE 120
+set COLOR .6
+set NQITERATIONS 4000
+call PENTAQSTAR

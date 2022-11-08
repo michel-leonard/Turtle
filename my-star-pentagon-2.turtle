@@ -1,0 +1,28 @@
+set AMPLITUDE 460
+set BIGQVAL - ( 2 ^ 53 )
+set ANGLE 360
+set X 0
+set Y 0
+set PREVQ1 0
+set PREVQ2 0
+set PREVQ3 0
+repeat 100000 {
+	set CURRQ1 BIGQVAL + random(0, 1) - BIGQVAL
+	set CURRQ2 BIGQVAL + random(0, 1) - BIGQVAL
+	set CURRQ3 BIGQVAL + random(0, 1) - BIGQVAL
+	set CURRQ3 ( 1 - CURRQ1 ) * ( 1 - CURRQ2 ) * CURRQ3
+	set RANDQINDEX CURRQ1 + CURRQ2 + CURRQ2 + 4 * CURRQ3
+	repeat 1 - ( BIGQVAL + 1 / ( 1 + ( PREVQ1 + 2 * PREVQ2 - PREVQ3 - RANDQINDEX + 1 ) ^ 2 ) - BIGQVAL ) {
+		repeat 1 - ( BIGQVAL + 1 / ( 1 + ( PREVQ1 * ( 5 * PREVQ2 + 2 * PREVQ3 - 4 ) + PREVQ2 * ( 2 * PREVQ3 - 3 ) + 2 * PREVQ3 ^ 2 - 3 * PREVQ3 - RANDQINDEX + 4 ) ^ 2 ) - BIGQVAL ) {
+			color .1 + .2 * RANDQINDEX , .5 - .1 * RANDQINDEX, 1 - .25 * RANDQINDEX
+			set X ( X + AMPLITUDE * cos( 72 * ( 3.75 + RANDQINDEX ) + ANGLE ) ) / 2
+			set Y ( 30 + Y + AMPLITUDE * sin( 72 * ( 3.75 + RANDQINDEX ) + ANGLE ) ) / 2
+			up position X, Y
+			down position 1 + X, Y
+			set PREVQ1 CURRQ1
+			set PREVQ2 CURRQ2
+			set PREVQ3 CURRQ3
+		}
+	}
+}
+
